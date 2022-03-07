@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce espacio pastelería</title>
+</head>
+<body>
+    <img src="./logopasteleria.png" alt="Logo Dulce espacio pastelería" width="200px">
+    <h1>Bienvenidos a Dulce espacio pastelería</h1>
+
+    <h2>Pasteles:</h2>
+    <table>
+        <tr>
+            <th>Sabor</th>
+            <th>Precio</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Chocolate Americano</td>
+            <td>$310.00</td>
+            <td><img src="./chocolateCake.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Tres leches</td>
+            <td>$300.00</td>
+            <td><img src="./tresLeches.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Moka</td>
+            <td>$300.00</td>
+            <td><img src="./moka.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Red Velvet</td>
+            <td>$380.00</td>
+            <td><img src="./redVelvet.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Zanahoria</td>
+            <td>$320.00</td>
+            <td><img src="./zanahoria.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Frutas</td>
+            <td>$400.00</td>
+            <td><img src="./fruit.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+    </table>
+
+    <br><br>
+    <h2>Decoraciones</h2>
+    <table>
+        <tr>
+            <th>Decoración</th>
+            <th>Precio</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Vela luminosa</td>
+            <td>$50.00</td>
+            <td><img src="./velaLuminosa.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Velas Feliz Cumpleaños</td>
+            <td>$80.00</td>
+            <td><img src="./velaCumpleanos.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Vela de Número</td>
+            <td>$35.00</td>
+            <td><img src="./velaNumero.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+        <tr>
+            <td>Velas normales</td>
+            <td>$25.00</td>
+            <td><img src="./velaNormal.jpg" alt="Pastel de Chocolate" width="150px"></td>
+        </tr>
+    </table>
+<br><br><br>
+    <h2>Realiza tu pedido</h2>
+    <form action="pedido.js">
+        <label for="Nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <br><br>
+
+        <label for="Teléfono">Teléfono</label><br>
+        <input type="text" name="teléfono" id="teléfono" placeholder="Teléfono">
+        <br><br>
+
+        <label for="Nombre">Correo electrónico</label><br>
+        <input type="email" name="correo" id="correo" placeholder="ejemplo@email.com">
+        <br><br>
+
+        <p>Elige el sabor:</p>
+        <input type="checkbox" id="chocolateAmericano" name="chocolateAmericano" value="chocolateAmericano">
+        <label for="chocolateAmericano">Chocolate Americano</label><br>
+        <input type="checkbox" id="tresLeches" name="tresLeches" value="tresLeches">
+        <label for="tresLeches">Tres leches</label><br>
+        <input type="checkbox" id="moka" name="moka" value="moka">
+        <label for="moka">Moka</label><br>
+        <input type="checkbox" id="redVelvet" name="redVelvet" value="redVelvet">
+        <label for="redVelvet">Red Velvet</label><br>
+        <input type="checkbox" id="zanahoria" name="zanahoria" value="zanahoria">
+        <label for="zanahoria">Zanahoria</label><br>
+        <input type="checkbox" id="Frutas" name="Frutas" value="Frutas">
+        <label for="Frutas">Frutas</label><br>
+        <h5>Nota: En caso de elegir más de un sabor, los sabores serán distribuidos equitativamente.</h5>
+        
+        <br>
+
+        <p>Elige tus adornos:</p>
+        <input type="checkbox" id="velaLuminosa" name="velaLuminosa" value="velaLuminosa">
+        <label for="velaLuminosa">Vela luminosa</label><br>
+        <input type="checkbox" id="velaCumpleanos" name="velaCumpleanos" value="velaCumpleanos">
+        <label for="velaCumpleanos">Velas Feliz Cumpleaños</label><br>
+        <input type="checkbox" id="velaNumero" name="velaNumero" value="velaNumero">
+        <label for="velaNumero">Vela de Número</label><br>
+        <input type="checkbox" id="velaNormal" name="velaNormal" value="velaNormal">
+        <label for="velaNormal">Velas normales</label><br>
+
+        <br><br><br>
+</body>
+</html>
